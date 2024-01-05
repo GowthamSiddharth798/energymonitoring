@@ -1,0 +1,134 @@
+
+
+.head-main{
+  background-color: rgb(35, 141, 255)!important;
+  /* background-image: url("https://media1.giphy.com/media/ai4jaaNvjrLmGNM6sm/giphy.gif?cid=ecf05e47axn82668phd87n6nlyw6n1ovn72a8jqy2p47qtp8&ep=v1_gifs_search&rid=giphy.gif&ct=g"); */
+  /* background-size: cover;
+  color: rgb(255, 255, 255)!important; */
+  /* background: linear-gradient(120deg, #37a8f9, #159bfa, #5bbafd); */
+  height: 13vh;
+  
+}
+.h-123{
+  position: absolute;
+  margin-top: 15px;
+  height: 40px;
+ 
+}
+.in-line{
+  display: flex;
+  padding: 6px;
+  
+}
+.title{
+  font-family: cursive!important;
+  margin-top: 20px;
+  color: rgb(21, 23, 24);
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+.main-heading {
+  text-shadow: 90px;
+  margin-top: 18px;
+
+}
+.heading {
+  margin-right: 50PX;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 20px;
+  
+}
+
+.vit-logo {
+  background-image: url("https://i.ibb.co/Cm04CR4/vishnu-logo.jpg");
+  height: 55px;
+  border-radius:100%;
+  margin-right: 2px!important;
+  margin: 20px;
+  margin-top: 8px;
+  box-shadow: #3498db;
+}
+
+
+.main-logo {
+  height: 55px;
+  width: 60px;
+  border-radius:100%;
+  margin-right: 2px!important;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+.logout{
+  margin-top: 15px;
+  width: 65px;
+  height: 40px;
+}
+
+@media (min-width:300px ) and ( max-width:430px) {
+  .head-main{
+    background-color: rgb(35, 141, 255)!important;
+    /* background: linear-gradient(120deg, #37a8f9, #159bfa, #5bbafd); */
+    height: 10vh;
+    
+  }
+  .title{
+    font-family: cursive!important;
+    margin-top: 20px;
+    color: rgb(21, 23, 24);
+    margin-left: 10vh;
+    margin-right: -10px;
+    font-size: 1px!important;
+  }
+  .main-heading {
+    text-shadow: 90px;
+    margin-top: 18px;
+    font-size: 7px;
+    margin-right: 2px;
+  }
+  .txt-1{
+    margin-top: -6px;
+    font-size: 10px;
+    margin-left: -50px;
+  }
+  .heading {
+    margin-right: 5PX;
+    font-size: 4px;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 7px;
+  }
+  
+  .vit-logo {
+    background-image: url("https://i.ibb.co/Cm04CR4/vishnu-logo.jpg");
+    height: 35px;
+    border-radius:100%;
+    margin-right: 2px!important;
+    margin: 10px;
+    margin-top: 8px;
+    box-shadow: #3498db;
+  }
+  
+  
+  .main-logo {
+    height: 35px;
+    width: 40px;
+    border-radius:100%;
+    margin-right: 2px!important;
+    margin-left: 2px;
+    margin-top: 8px;
+  }
+  
+  .logout{
+    margin-top: 1px;
+    margin-left: -40px;
+    width: 25px;
+    height: 12px;
+    font-size: 7px!important;
+  }
+}
+
+
+
+

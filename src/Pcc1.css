@@ -1,0 +1,239 @@
+.back-bg{
+    background-color: rgb(182, 204, 252) ;
+    height: 260vh;
+}
+
+.card-pcc1{
+    margin: 60px;
+    margin-left: 300px;
+    height: 220vh;
+    width:60vw;
+}
+
+.new{
+    position: absolute;
+    top: 400px;
+}
+.new2{
+    position: absolute;
+    top: 1000px;
+}
+.new3{
+    position: absolute;
+    top: 800px;
+}
+.new4{
+    position: absolute;
+    top: 1200px;
+}
+.st-line-14{
+    rotate: 90deg; 
+    position: absolute;
+    left: -130px;
+    height: 40vh;
+    top: -188px;
+}
+.st-line-144{
+    rotate: 90deg;
+    height: 260px;
+    position: absolute;
+    left: -108px;
+    top: 120px;
+}
+.cross-mark{
+    position:absolute;
+    bottom: 780px;
+    left: 30px;
+}
+.CROSS-TXT{
+    position:absolute;
+    top: 830px!important;
+    left: 60px;
+}
+.park-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -30px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 11px!important;
+}
+.stp-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -85px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size:9px!important;
+}
+.Geysers-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -145px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.ac-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -204px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.front-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -30px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.annapurna-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -85px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.Hostels-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -145px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+
+.annapurna-lighting-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -205px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.d-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -30px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.a-canteen-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -85px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.sbsp-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -145px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.bvrc-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: -205px;
+    width: 10vw;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.d-block-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: 1000px;
+    bottom: -85px;
+    width: 10vw!important;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.spare-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: 1000px;
+    bottom: 1015px;
+    width: 10vw!important;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+.front-ac-button{
+    background-color: rgb(49, 141, 217)!important;
+    color: rgb(255, 255, 255)!important;
+    position: absolute;
+    right: -200px;
+    bottom: 2115px;
+    width: 10vw!important;
+    padding-top: 10px!important;
+    height: 40px;
+    font-size: 9px!important;
+}
+
+.inputs-pcc1{
+    position: absolute;
+    left: 430px;
+    top: 5px;
+}
+.inputs2-pcc1{
+    position: absolute;
+    left: 430px;
+   top: 100px;
+}
+.inputs3-pcc1{
+    position: absolute;
+    left: 430px;
+   top: 200px;
+}
+.inputs4-pcc1{
+    position: absolute;
+    left: 430px;
+   top: 300px;
+}

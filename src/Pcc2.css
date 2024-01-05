@@ -1,0 +1,191 @@
+
+.st-line{
+    rotate: 90deg; 
+    position: absolute;
+    left: -76.8vh!important;
+    top: -87.5px;
+    height: 1100px;
+    
+ }
+ .disabled-cursor input {
+    pointer-events:fill;
+    
+}
+ .st-line2{
+    rotate: 90deg; 
+    position: absolute;
+    left: -76.8vh!important;
+    top: 82.5px;
+    height: 1100px;
+    
+ }
+ .st-line3{
+    rotate: 90deg; 
+    position: absolute;
+    left: -76.8vh!important;
+    top: 859.5px;
+    height: 1100px;
+    
+ }
+ .txt1{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    margin: 20px;
+    
+ }
+.Card123{
+    
+    margin: 30px;
+}
+ .flex{
+    display: flex;
+    
+ }
+ .arrow{
+    position: relative;
+    width: 15vh;
+    right: -60px;
+    
+    
+}
+ 
+.txt-park{
+    height: 35px;
+    padding-top: 10px;
+    right: -80px;
+    
+}
+
+.park-align{
+    position: absolute;
+    top: -200px;
+    left: 250px;
+}
+.hostels-2{
+    position: absolute;
+    top: -100px;
+    left: 250px;
+}
+.ac-hostels{
+    position: absolute;
+    top: 15px;
+    left: 250px;
+}
+
+.FRONT-CAMPUS-PANEL{
+    position: absolute;
+    top: 125px;
+    left: 250px;
+}
+.ANNAPURNA-CANTEEN{
+    position: absolute;
+    top: 235px;
+    left: 250px;
+}
+.HOSTELS-RRVSV-GVVS{
+    position: absolute;
+    top: 345px;
+    left: 250px;
+}
+.ANNAPURNA-CANTEEN-LIGHT{
+    position: absolute;
+    top: 465px;
+    left: 250px;
+}
+.svecw{
+    position: absolute;
+    top: 580px;
+    left: 250px;
+}
+.ANNAPURNA-CANTEEN-BLOWERS{
+    position: absolute;
+    top: 785px;
+    left: 250px;
+}
+.SBSP{
+    position: absolute;
+    top: 800px;
+    left: 250px;  
+}
+.BVRC{
+    position: absolute;
+    top: 909px;
+    left: 250px; 
+}
+.F-CAMPUS-PANEL{
+    position: absolute;
+    top: 1019px;
+    left: 250px; 
+}
+.STREET-DB{
+    position: absolute;
+    top: 1129px;
+    left: 250px; 
+}
+.SVCEW-D{
+    position: absolute;
+    top: 1249px;
+    left: 250px; 
+}
+.SPARE{
+    position: absolute;
+    top: 1359px;
+    left: 250px; 
+}
+.F-AC{
+    position: absolute;
+    top: 1459px;
+    left: 250px;  
+}
+.txt-pcc1-input-in{
+    position: absolute!important;
+    margin-left: 35vh!important;
+    top: 250px;
+    width: 150px;
+    
+}
+.txt-pcc1-input-in-2{
+    position: absolute!important;
+    margin-left: 65vh!important;
+    top: 250px;
+    width: 150px;
+}
+.txt-pcc1-input-in-3{
+    position: absolute!important;
+    margin-left: 95vh!important;
+    top: 250px;
+    width: 150px;
+}
+.txt-pcc1-input-in-21{
+    position: absolute!important;
+    margin-left: 35vh!important;
+    top: 350px;
+    width: 150px;
+    
+}
+
+.txt-pcc1-input-in-22{
+    position: absolute!important;
+    margin-left: 65vh!important;
+    top: 350px;
+    width: 150px;
+}
+.txt-pcc1-input-in-23{
+    position: absolute!important;
+    margin-left: 95vh!important;
+    top: 350px;
+    width: 150px;
+}
+
+.cross-mark{
+    position: absolute;
+    right: 1320px;
+}
+.CROSS-TXT{
+    position:absolute;
+    right: 1190px;
+    top: 900px;
+}
+
+

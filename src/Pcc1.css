@@ -1,13 +1,15 @@
 .back-bg{
-    background-color: rgb(182, 204, 252) ;
+    background-color: rgb(0, 0, 0.900) ;
     height: 260vh;
+    color: rgb(255, 255, 255);
 }
 
 .card-pcc1{
+    background-color: rgb(111, 111, 111)!important;
     margin: 60px;
-    margin-left: 300px;
+    margin-left: 260px;
     height: 220vh;
-    width:60vw;
+    width:65vw;
 }
 
 .new{
@@ -49,191 +51,193 @@
     position:absolute;
     top: 830px!important;
     left: 60px;
+    color: black;
 }
 .park-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
+
     position: absolute;
     right: -200px;
     bottom: -30px;
-    width: 10vw;
+    width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 11px!important;
+    
 }
 .stp-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -85px;
-    width: 10vw;
+    width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size:9px!important;
+    
 }
 .Geysers-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -145px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+   
 }
 .ac-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -204px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .front-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -30px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .annapurna-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -85px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .Hostels-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -145px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 
 .annapurna-lighting-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -205px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .d-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -30px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .a-canteen-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -85px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .sbsp-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -145px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .bvrc-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: -205px;
-    width: 10vw;
+   width: 20vw;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .d-block-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: 1000px;
     bottom: -85px;
-    width: 10vw!important;
+    width: 20vw!important;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .spare-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: 1000px;
     bottom: 1015px;
-    width: 10vw!important;
+    width: 20vw!important;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 .front-ac-button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+    background-color: rgb(90, 226, 181)!important;
+    color: rgb(0, 0, 0)!important;
     position: absolute;
     right: -200px;
     bottom: 2115px;
-    width: 10vw!important;
+    width: 20vw!important;
     padding-top: 10px!important;
     height: 40px;
-    font-size: 9px!important;
+    
 }
 
 .inputs-pcc1{
     position: absolute;
-    left: 430px;
+    left: 530px;
     top: 5px;
 }
 .inputs2-pcc1{
     position: absolute;
-    left: 430px;
+    left: 530px;
    top: 100px;
 }
 .inputs3-pcc1{
     position: absolute;
-    left: 430px;
+    left: 530px;
    top: 200px;
 }
 .inputs4-pcc1{
     position: absolute;
-    left: 430px;
+    left: 530px;
    top: 300px;
 }

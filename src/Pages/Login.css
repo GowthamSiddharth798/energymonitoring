@@ -1,0 +1,83 @@
+.m-bg{
+        background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
+        /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0z3LLjhxOc5icTFnPEmQ5DMLckC0qzpJC21IeJid6-OFCt3toOKPjNkmGqYnMZYpirB4&usqp=CAU"); */
+        height: 100vh;     
+        background-size:cover;
+        
+}
+
+.Card-in{
+    top: 20vh;
+    margin-left: 35vw;
+    background-image: url("https://www.bhmpics.com/downloads/animated-gif-wallpapers-/10.background.gif");
+    height: 60vh;
+    width: 25vw;
+    opacity: 65%;
+    background-size: cover;
+    padding: 5px;
+    color: rgb(14, 119, 210);
+    border-color: rgb(8, 8, 8)!important;
+}   
+
+.bg-c{
+    height: 59.5vh;
+    width: 25vw;
+    background-color: rgb(255, 255, 255)!important;
+    /* opacity: 60%!important; */
+    color: rgb(88, 84, 84)!important;
+    border-color:rgb(255, 255, 255) ;
+    right: -560px!important;
+    top: 120px;
+    padding-right: 60px!important;
+    position: absolute;
+}
+.card-text{
+    color: rgb(0, 0, 0)!important;
+    position: absolute;
+    left: 150px;
+}
+.card-text1{
+    color: rgb(0, 0, 0)!important;
+    position: absolute;
+    left: 150px;
+    top: 170PX;
+}
+.card-text2{
+    color: rgb(0, 0, 0)!important;
+    position: absolute;
+    left: 150px;
+    top: 260PX;
+}
+.input1{
+    position: absolute;
+    bottom: -200px;
+    width: 20VW;
+    left: 60PX;
+}
+.Main-back{
+    position: absolute;
+    left: -20px;
+}
+.input2{
+    position: absolute;
+    bottom: -250px;
+    width: 20VW;
+    left: 60PX;
+}
+
+.bi{
+    position:absolute;
+    background-color: rgb(0, 115, 255);
+    border-width: 0px;
+    width: 10vw;
+    height: 50px;
+    border-radius: 10px;
+    top: 350px;
+    left: 130px;
+}
+.user-logo1{
+    height: 60px;
+    left:170px;
+    position:absolute;
+    top: 90px;
+}

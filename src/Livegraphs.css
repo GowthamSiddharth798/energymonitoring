@@ -1,0 +1,25 @@
+.background-graphs{
+    /* height: 200vh; */
+    background-color: rgba(0, 0, 0, 0.900);
+    width:99vw;
+    color: white;
+    
+}
+.gp{
+    margin-top: -50px;
+}
+.graph-logo{
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 50%;
+    position: relative!important;
+    margin-top: 50px;
+}
+.t5{
+    margin-left: 20px;
+}
+.last{
+    /* position; */
+    left: 30px;
+    top: 50px;
+}

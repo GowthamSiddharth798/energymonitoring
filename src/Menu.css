@@ -1,0 +1,51 @@
+.offcanvas{
+  padding: 05px;
+  border-color: rgb(255, 255, 255);
+  border-width: 390px!important;
+  background-color: rgb(190, 235, 255);
+  margin-left:-20vh ;
+  margin-bottom: 59vh;
+  padding-top: 15px;
+}
+
+.button-menu{
+  position: absolute;
+  width: 25vw;
+  border-width: 0px;
+  background-color: rgb(255, 128, 78);
+  padding-left:100px;
+  padding-top: 10px;
+}
+.button-menu2{
+  position: absolute;
+  top: 135px;
+  width: 25vw;
+  border-width: 0px;
+  background-color: rgb(255, 128, 78);
+  padding-left:100px;
+  padding-top: 10px;
+}
+.button-menu3{
+  position: absolute;
+  top: 190px;
+  width: 25vw;
+  border-width: 0px;
+  background-color: rgb(255, 128, 78);
+  padding-left:100px;
+  padding-top: 10px;
+}
+.button-menu4{
+  position: absolute;
+  top: 245px;
+  width: 25vw;
+  border-width: 0px;
+  background-color: rgb(255, 128, 78);
+  padding-left:100px;
+  padding-top: 10px;
+  
+}
+
+.menu-b-in-txt{
+  text-align: center;
+  font-weight: bold;
+}

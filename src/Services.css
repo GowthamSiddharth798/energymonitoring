@@ -1,0 +1,85 @@
+/* ServicesPage.css */
+
+.services-container {
+    padding: 20px;
+  }
+  
+ 
+  .service {
+    margin-bottom: 30px;
+  }
+  
+  .service h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    /* Add fadeInUp animation */
+    animation: fadeInUp 1s ease;
+  }
+  
+  .service p {
+    font-size: 16px;
+    color: #ffeeee;
+  }
+  
+  /* Add fadeInUp animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  
+ /* Add continuous scrolling underline animation with smooth transition */
+@keyframes continuousUnderlineScroll {
+    0% {
+      background-position: 0% 100%; /* Start from the bottom */
+    }
+    100% {
+      background-position: 100% 100%; /* Scroll to the top */
+    }
+  }
+  
+  .heading54 {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .heading54 h1 {
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+    color: #fb8282; /* Adjust the color as needed */
+  }
+  
+  .heading54 h1::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #f65656, transparent); /* Gradient for the scrolling effect */
+    background-size: 200% 2px; /* Double the width for scrolling */
+    background-repeat: no-repeat;
+    animation: continuousUnderlineScroll 2s infinite; /* Adjust the duration as needed */
+    transition: background-position 10s ease; /* Smooth transition effect */
+  }
+  

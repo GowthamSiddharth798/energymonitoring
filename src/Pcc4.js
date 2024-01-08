@@ -2,6 +2,7 @@ import React from "react";
 import './Pcc1.css';
 import{Card,Input,Button} from 'react-rainbow-components'
 import Header from './Header.js'
+import Nav2 from "./Nav2";
 
 
 function Pcc4(){
@@ -10,7 +11,7 @@ function Pcc4(){
         < >
         
           <div className="back-bg">
-          <Header/>
+          <Nav2/>
           <center><h1><u>PCC-4</u></h1></center>
             <Card className="card-pcc1 flex">
            

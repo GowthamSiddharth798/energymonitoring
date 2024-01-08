@@ -1,0 +1,7 @@
+.Dash{
+    background-color: rgb(56, 52, 52);
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}

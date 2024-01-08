@@ -1,336 +1,74 @@
-.arrow-line-11{
-   position: absolute;
-   left: 40px;
-   height: 120px;
-   top: -10px;
+
+
+.back-main{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    height: 200vh;
+    margin-top: 1px;
 }
-.arrow-line-12{
-    position: absolute;
-    left: 40px;
-    height: 120px;
-    top: 90px;
- }
- .arrow-line-13{
-    position: absolute;
-    left: 40px;
-    height: 120px;
-    top: 190px;
- }
- .arrow-line-14{
-    position: absolute;
-    left: 40px;
-    height: 120px;
-    top: 290px;
- }
-
-
-.flex{
+.flex {
     display: flex;
 }
-.main{
-    position:absolute;
-    top: 40px;
-}
-.st-line-11{
-   rotate: 90deg; 
-   position: absolute;
-   left: -130px;
-   height: 40vh;
-   top: 10px;
-}
-.st-line-141{
-    rotate: 90deg; 
-    position: absolute;
-    left: -130px;
-    height: 40vh;
-    top: 88px;
- }
-.card{
-    height: 60vh;
-    width: 55vw;
-    margin: 25px;
-    background-color: rgb(220, 241, 255)!important;
-    border-color: rgb(255, 255, 255)!important;
-}
-.card2{
-    border-color: rgb(255, 255, 255)!important;
-    position: absolute;
-    top: 235px;
-    right: 340px;
-}
-.card3{
-    border-color: rgb(255, 255, 255)!important;
-    position: absolute;
-    top: 235px;
-    right: 40px;
-}
-.card-txt{
-  background-color: rgb(220, 241, 255)!important;
-  height: 60vh;
-  width: 18vw;
-  padding-top: 30px;
-  padding-left: 55px;
-}
-.background{
-    background-color: rgb(182, 204, 252) ;
-    height: 100vh;
-    
-}
-.button{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
-    position: absolute;
-   right: -200px;
-   bottom: -29px;
-    width: 7vw;
-    padding-top: 10px!important;
-    height: 40px;
+.colour-txt{
+    position:relative;
+    position: sticky;
+    top: 0;
+    /* z-index: 100; */
 }
 
-.button2{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
+.content{
+    /* background-color:rgb(255, 100, 53)!important ; */
+    background-color: rgb(239, 78, 50)!important;
+    border-color: brown!important;
+    height:50vh;
+    margin-top: 50px;
+    border-bottom-left-radius: 80%!important;
+    margin: 20px;
+    opacity: 90%;
+    padding: 10px;
+}
+
+.img{
+    /* background-image: url("https://www.iotconnect.io/images/energy_diagram.png"); */
+    height: 100px;
+    width: 40px;
+    margin: 20px;
+    color: white;
+
+}
+.list{
     position: absolute;
-    right: 1000px;
-    bottom: -85px;
-     width: 7vw;
-     padding-top: 10px!important;
-     height: 40px;
-}
-.button3{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
-    position: absolute;
-    bottom: 1015px;
-    right: 1000px;
-    width: 7vw;
-    padding-top: 10px!important;
-    height: 40px;
-}
-.button4{
-    background-color: rgb(49, 141, 217)!important;
-    color: rgb(255, 255, 255)!important;
-    position: absolute;
-    bottom: 2115px;
-    right: -200px;
-    width: 7vw;
-    padding-top: 10px!important;
-    height: 40px;
-}
-.inputs{
-    position: absolute;
-    left: 360px;
-    top: 5px;
-    
-}
-.inputs2{
-    position: absolute;
-    left: 360px;
-   top: 100px;
-}
-.inputs3{
-    position: absolute;
-    left: 360px;
-   top: 200px;
-}
-.inputs4{
-    position: absolute;
-    left: 360px;
-   top: 300px;
-}
-.disabled-cursor1{
-  
-    margin-right: 35px;
-    width: 7vw;
-    color: rgb(0, 0, 0)!important;
-}
-.disabled-cursor2{
-   margin-left: 20PX;
-    width: 7vw;
-}
-.txt-main{
-    font-family: cursive!important;
-    margin: 40px;
+    left: 400px!important;
+    font-size: 30px;
+    color: white;
 }
 
 
-
-
-
-
-
-
- @media (min-width:300px) and ( max-width:430px) {
-    .background{
-        background-color: rgb(186, 217, 250)!important;
-        /* background: linear-gradient(120deg, #37a8f9, #159bfa, #5bbafd); */
-        height: 160vh!important;
-        width: 112vw!important;
-        
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
     }
-    .arrow-line-11{
-        position: absolute;
-        left: 5px;
-        height: 56px;
-        top: 14px;
-     }
-     .arrow-line-12{
-         position: absolute;
-         left: 5px;
-         height: 56px;
-         top: 90px;
-      }
-      .arrow-line-13{
-         position: absolute;
-         left: 5px;
-         height: 56px;
-         top: 170px;
-      }
-      .arrow-line-14{
-         position: absolute;
-         left: 5px;
-         height: 56px;
-         top: 249.5px;
-      }
-     
-     
-     .flex{
-         display: flex;
-     }
-     .main{
-         position:absolute;
-         top: 40px;
-     }
-     .st-line-11{
-        rotate: 90deg; 
-        position: absolute;
-        left: -125.5px;
-        height: 35vh;
-        top: 13px;
-     }
-     .st-line-141{
-         rotate: 90deg; 
-         position: absolute;
-         left: -125.5px;
-         height: 35vh;
-         top: 76px;
-      }
-     .card{
-        margin-left: 5px;
-         height: 55vh;
-         width: 102vw;
-         margin: 15px;
-         margin-top: 25px;
-         background-color: rgb(220, 241, 255)!important;
-         border-color: rgb(255, 255, 255)!important;
-     }
-     .card2{
-         border-color: rgb(255, 255, 255)!important;
-         position: absolute;
-         top: 600px;
-         right: 153.5px;
-     }
-     .card3{
-         border-color: rgb(255, 255, 255)!important;
-         position: absolute;
-         top: 600px;
-         right: -25px;
-     }
-     .card-txt{
-       background-color: rgb(220, 241, 255)!important;
-       height: 62vh!important;
-       width: 50vw!important;
-       padding: 20px;
-     }
-     .background{
-         background-color: rgb(182, 204, 252) ;
-         height: 100vh;
-         
-     }
-     .button{
-         background-color: rgb(49, 141, 217)!important;
-         color: rgb(255, 255, 255)!important;
-         position: absolute;
-         right: 1100px;
-         bottom: 2344px;
-         width: 13vw!important;
-         padding-top: 10px!important;
-         height: 30px;
-     }
-     
-     .button2{
-         background-color: rgb(49, 141, 217)!important;
-         color: rgb(255, 255, 255)!important;
-         position: absolute;
-         right: 1100px;
-         bottom: 2268px;
-          width: 13vw;
-          padding-top: 10px!important;
-          height: 30px;
-     }
-     .button3{
-         background-color: rgb(49, 141, 217)!important;
-         color: rgb(255, 255, 255)!important;
-         position: absolute;
-         bottom: 2190px;
-         right: 1100px;
-         width: 13vw!important;
-         padding-top: 10px!important;
-         height: 30px;
-     }
-     .button4{
-         background-color: rgb(49, 141, 217)!important;
-         color: rgb(255, 255, 255)!important;
-         position: absolute;
-         bottom: 2110px;
-         right: 1100px;
-         width: 13vw;
-         padding-top: 10px!important;
-         height: 30px;
-     }
-     .inputs{
-         position: absolute;
-         left: 115px;
-         top: -5px;
-     }
-     .inputs2{
-         position: absolute;
-         left: 115px;
-        top: 65px;
-     }
-     .inputs3{
-         position: absolute;
-         left: 115px;
-         top: 155.5px;
-       
-     }
-     .inputs4{
-         position: absolute;
-         left: 115px;
-         top: 225px;
-     }
-     .disabled-cursor1{
-        width: 5vw!important;
-     }
-     .disabled-cursor1{
-        margin-right: 0px;
-        width: 20vw!important;
+    50% {
+        transform: scale(1.0255);
+        box-shadow: 0 0 10px rgba(255, 165, 0, 0.7);
+    }
+   
+}
 
-    }
-    .disabled-cursor2{
-       margin-left: 0PX;
-        width: 30vw!important;
-    }
-     .txt-main{
-         font-family: cursive!important;
-         margin: 15px;
-     }
-     .txt-in{
-        font-size: 5px!important;
-     }
-     .inp{
-       font-size: 8px;
-       margin-right: 25px;
-     }
-     
-} 
+.img-a{
+    animation: scaleAnimation 6s infinite; /* Adjust the duration as needed */
+}
+.back-i{
+    background-image: url("https://www.iotconnect.io/images/energy_diagram.png")!important;
+    height: 250px;
+    margin-left: 62vw;
+    position: absolute;
+    top: 130px;
+}
+
+.b2{
+    background-image: url("https://www.pngmart.com/files/12/Orange-Wave-PNG-Transparent-Picture.png");
+    height: 70px;
+    position: absolute;
+}

@@ -3,14 +3,37 @@ import './Pcc1.css';
 import{Card,Input,Button} from 'react-rainbow-components'
 import Header from './Header.js'
 import { Link } from "react-router-dom/cjs/react-router-dom.js";
-
+import Navbar from "./Navmain.js";
+import Menu from "./Menu.js";
+import Nav2 from "./Nav2";
 function Pcc1(){
-   
+    const linkStyle = {
+        float: 'left',
+        display: 'block',
+        color: 'white',
+        textAlign: 'center',
+        padding: '20px 16px',
+        textDecoration: 'none',
+        
+    };
     return(
         < >
         
           <div className="back-bg">
-          <Header/>
+            {/* nav */}
+            {/* <div className="flex">
+                <Menu />
+                <div>
+                    <nav className="colour-txt">
+                            <Link to="/Home" style={linkStyle} id="Home">Home</Link>
+                            <Link to="/Info" style={linkStyle}>About</Link>
+                            <Link to="/services" style={linkStyle}>Services</Link>
+                            <Link  to="/Livegraphs" style={linkStyle}>Graphs</Link>
+                            <Link  to="/Data analysis" style={linkStyle}>Data Analysis</Link>
+                    </nav>
+                </div>
+             </div> */}
+             <Nav2/>
          
           <center><h1><u>PCC-1</u></h1></center>
             <Card className="card-pcc1 flex">
@@ -104,7 +127,7 @@ function Pcc1(){
                         </div>
                  </div>
 
-{/*                          */}
+                          {/*                          */}
                  <div className="new">
                      <div class="main">
                             <div class="flex">
@@ -203,7 +226,7 @@ function Pcc1(){
                     <br/>
 
 
-{/*                         */}
+                  {/*                         */}
                  <div className="new3">
                      <div class="main">
                             <div class="flex">
@@ -292,7 +315,7 @@ function Pcc1(){
                      </div>
                  </div>
 
-{/*                        */}
+                  {/*                        */}
                  <div className="new4">
                      <div class="main">
                             <div class="flex">

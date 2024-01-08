@@ -1,0 +1,28 @@
+.myaccount-card{
+    
+    height: 50vh;
+    width: 40vw;
+    margin: 30vh!important;
+    margin-left: 60vh!important;
+
+}
+.user{
+    margin: 20px;
+}
+.user-txt{
+    position: absolute;
+   margin-top: 50px;
+   right:480px;
+}
+
+.account-bg{
+    height: 100vh;
+     background-color: rgba(0, 0, 0, 0.900);
+     color: white;
+}
+
+.account-bg-in{
+  
+     background-color: rgba(183, 180, 180, 0.9)!important;
+     color: white;
+}

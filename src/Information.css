@@ -1,0 +1,24 @@
+
+  
+  .mfm-container {
+    margin: 30px ;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.900);
+  }
+ li{
+    padding: 10px;
+ } 
+ 
+  .bs{
+    background-color: rgba(0, 0, 0, 0.900);
+    height:120vh;
+  }
+
+  
+  .feature-overview {
+    margin-top: 20px;
+  }
+  
+
+  

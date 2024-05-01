@@ -10,7 +10,7 @@ const Login = () => {
                  <Card className='bg-c '>
                    <div class="Main-back">
                      <h1 className='card-text'>Login</h1>
-                     <img src='https://clipground.com/images/user-icon-vector-png-6.png' height={20} class="user-logo1"/>
+                     <img src={'https://clipground.com/images/user-icon-vector-png-6.png'} height={20} class="user-logo1"/>
                      <p className='card-text1'>USER NAME</p>
                     <Input className='input1'/>
                     <p className='card-text2'>PASSWORD</p>

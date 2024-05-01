@@ -2,6 +2,7 @@ import { useState ,props} from 'react';
 import {Offcanvas,Button }from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import'./Menu.css';
+import hamburger from './hamburger.jpg'
 function Menu() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -9,7 +10,7 @@ function Menu() {
 
   return (
     <>
-      <img src='https://icon-library.com/images/hamburger-icon-white/hamburger-icon-white-16.jpg' className='menu-button'  onClick={handleShow}/>
+      <img src={hamburger} className='menu-button'  onClick={handleShow}/>
       <Offcanvas show={show} onHide={handleClose} class="offcanvas">
         <Offcanvas.Header closeButton >
           <Offcanvas.Title>  </Offcanvas.Title>

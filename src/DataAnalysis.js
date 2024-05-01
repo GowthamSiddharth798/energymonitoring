@@ -76,7 +76,7 @@ const getColorEffi = (percent) => {
 
   const getButtonStyle = () => {
     return {
-      backgroundColor:  current > 90 || power>100 || energy>5000 ? 'red' : 'rgb(0.26, 817, 185)', 
+      backgroundColor:  current > 350 || power>50000 || energy>15000 ? 'red' : 'rgb(0.26, 817, 185)', 
       color: 'green',
       height:40,
       width:100,
@@ -120,7 +120,7 @@ const getColorEffi = (percent) => {
                        <div className="flex inputs">
                            <div >
                                <b class="t2 inp" > Current(A):</b>
-                               <Input  className="disabled-cursor1 input " value={current/2} onChange={ handleInputChange} />     
+                               <Input  className="disabled-cursor1 input " value={current} onChange={ handleInputChange} />     
                               
                            </div>
                            
@@ -148,7 +148,7 @@ const getColorEffi = (percent) => {
                        <div className="flex inputs2">
                            <div >
                                <b class="inp"> Current(A):</b>
-                               <Input  className="disabled-cursor1 input " value={current/2} onChange={handleInputChange} />                      
+                               <Input  className="disabled-cursor1 input " value={current} onChange={handleInputChange} />                      
                            </div>
                            
                            <div>
@@ -174,7 +174,7 @@ const getColorEffi = (percent) => {
                        <div className="flex inputs3" >
                            <div >
                                <b class="inp"> Current(A):</b>
-                               <Input  className="disabled-cursor1 input " value={current/2}/>                      
+                               <Input  className="disabled-cursor1 input " value={current}/>                      
                            </div>
                            
                            <div>
@@ -200,7 +200,7 @@ const getColorEffi = (percent) => {
                        <div className="flex inputs4">
                            <div >
                                <b class="inp"> Current(A):</b>
-                               <Input  className="disabled-cursor1 input "  value={current/2}onChange={handleInputChange}/>                      
+                               <Input  className="disabled-cursor1 input "  value={current}onChange={handleInputChange}/>                      
                            </div>
                            
                            <div>

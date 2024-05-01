@@ -10,8 +10,7 @@ const Navbar = () => {
         color: 'white',
         textAlign: 'center',
         padding: '20px 16px',
-        textDecoration: 'none',
-        
+        textDecoration: 'none',  
     };
   return (
     <div className="Dash flex">

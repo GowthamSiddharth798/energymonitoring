@@ -20,27 +20,27 @@ const Nav2 = () => {
                
 
              <div className="flex">
-        <Menu />
+        <Menu class="menu-min" />
         <div>
                 <nav className="colour-txt">
                 <div className="animated-title">
       <Link to="/Home" style={linkStyle} >
-        <p className='under-txt'>Home</p>
+        <p className='under-txt sm'>Home</p>
       </Link>
       <Link to="/Data analysis" style={linkStyle}>
-        <p className='under5'>Data Analysis</p>
+        <p className='under5 '>Data Analysis</p>
       </Link>
       
       <Link to="/Livegraphs" style={linkStyle} >
-        <p className='under4'>Graphs</p>
+        <p className='under4 '>Graphs</p>
       </Link>
       
      
       <Link to="/Services" style={linkStyle} >
-        <p className="under3">Services</p>
+        <p className="under3 ">Services</p>
       </Link>
       <Link to="/Info" style={linkStyle} >
-        <p className='under2'>About</p>
+        <p className='under2 '>About</p>
       </Link>
     </div>
                         <img src="https://i.ibb.co/YZw8yxS/Iot-logo.jpg" class="Iot-logo img-a" />

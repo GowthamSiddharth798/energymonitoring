@@ -17,8 +17,8 @@ const Info = () => {
       <ul>
            <li>Real-time Tracking</li>
            <li>Remote Access</li>
-          <li>Environmental Impact Assessment</li>
-            <li>Visualization and Analytics</li>
+           <li>Environmental Impact Assessment</li>
+           <li>Visualization and Analytics</li>
         <li> 
                 <strong>Multifaceted Measurements:</strong>
                 The MFM384 is equipped to measure various parameters crucial for understanding energy dynamics.

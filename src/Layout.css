@@ -1,0 +1,28 @@
+.grid-box{
+    background-color: rgb(132, 130, 129);
+    height: 40px;
+    width: 80px;
+    color: white;
+    border-width: 20%!important;
+    border-color: rgb(0, 0, 0);
+    font-family:  monospace;
+    padding: 5px;
+    margin-left: 92vh;
+}
+.line-grid{
+    background-color: white;
+    height: 2px;
+    width: 30px;
+    rotate: 90deg;
+    position: absolute;
+    left: 709px;
+    top:143px ;
+}
+
+.line-1{
+    background-color: white;
+    height: 2px;
+    width: 1000px;
+    margin-left: 30vh;
+    margin-top: vh;
+}

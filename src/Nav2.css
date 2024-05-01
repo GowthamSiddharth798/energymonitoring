@@ -1,137 +1,134 @@
-
-
-
 .Iot-logo {
-    position: relative;
-    height: 55px;
-    width: 55px;
-    border-radius:100%;
-    margin-right: 2px!important;
-    margin: 5px;
-    left: 620px;
-  }
+  position: relative;
+  height: 55px;
+  width: 55px;
+  border-radius:100%;
+  margin-right: 2px!important;
+  margin: 5px;
+  left: 600px;
+}
 
-  .Iot-txt{
-    margin-left: 155vh;
-    margin-top: -40px;
-    margin-bottom: 120px;
-    color: white;
-  }
+.Iot-txt{
+  margin-left: 150vh !important;
+  margin-top: -4px;
+  margin-bottom: 0px;
+  color: white!important;
+}
 
-  /* .under:hover{
-    font-size: 30px;
+/* .under:hover{
+  font-size: 30px;
 
-  }
-  .under-txt:hover{
-    padding-bottom: 10px!important;
-  } */
+}
+.under-txt:hover{
+  padding-bottom: 10px!important;
+} */
 
 
-  /* Add overall animation */
+/* Add overall animation */
 @keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+from {
+  opacity: 0;
+  transform: translateY(20px);
+}
+to {
+  opacity: 1;
+  transform: translateY(0);
+}
 }
 
 
 
 /* Add underline animation */
 .under-txt::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  width: 70px; /* Adjust the width of the underline */
-  height: 2px;
-  background-color: #f65656; /* Change to your desired underline color */
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-in-out;
+content: "";
+position: absolute;
+left: 0;
+bottom: 95px; /* Adjust the distance of the underline from the text */
+width: 70px; /* Adjust the width of the underline */
+height: 2px;
+background-color: #f65656; /* Change to your desired underline color */
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.5s ease-in-out;
 }
 
 .under-txt:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 /* Add underline animation */
 .under2::after {
-  content: "";
-  position: absolute;
-  left: 380px;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  width: 70px; /* Adjust the width of the underline */
-  height: 2px;
-  background-color: #f65656; /* Change to your desired underline color */
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-in-out;
-  margin-left: 0px!important;
+content: "";
+position: absolute;
+left: 380px;
+bottom: 95px; /* Adjust the distance of the underline from the text */
+width: 70px; /* Adjust the width of the underline */
+height: 2px;
+background-color: #f65656; /* Change to your desired underline color */
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.5s ease-in-out;
+margin-left: 0px!important;
 }
 
 .under2:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 /* u3 */
 .under3::after {
-  content: "";
-  position: absolute;
-  left: 135px;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  width: 70px; /* Adjust the width of the underline */
-  height: 2px;
-  background-color: #f65656; /* Change to your desired underline color */
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-in-out;
-  margin-left:160px;
+content: "";
+position: absolute;
+left: 135px;
+bottom: 95px; /* Adjust the distance of the underline from the text */
+width: 70px; /* Adjust the width of the underline */
+height: 2px;
+background-color: #f65656; /* Change to your desired underline color */
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.5s ease-in-out;
+margin-left:160px;
 }
 
 .under3:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 /* u4 */
 .under4::after {
-  content: "";
-  position: absolute;
-  left: -35px;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  width: 75px; /* Adjust the width of the underline */
-  height: 2px;
-  background-color: #f65656; /* Change to your desired underline color */
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-in-out;
-  margin-left: 240px;
+content: "";
+position: absolute;
+left: -35px;
+bottom: 95px; /* Adjust the distance of the underline from the text */
+width: 75px; /* Adjust the width of the underline */
+height: 2px;
+background-color: #f65656; /* Change to your desired underline color */
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.5s ease-in-out;
+margin-left: 240px;
 }
 
 .under4:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }
 /* u5 */
 .under5::after {
-  content: "";
-  position: absolute;
-  left: 80px;
-  bottom: -5px; /* Adjust the distance of the underline from the text */
-  width: 120px; /* Adjust the width of the underline */
-  height: 2px;
-  background-color: #f65656; /* Change to your desired underline color */
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.5s ease-in-out;
- 
+content: "";
+position: absolute;
+left: 80px;
+bottom: 95px; /* Adjust the distance of the underline from the text */
+width: 120px; /* Adjust the width of the underline */
+height: 2px;
+background-color: #f65656; /* Change to your desired underline color */
+transform: scaleX(0);
+transform-origin: bottom right;
+transition: transform 0.5s ease-in-out;
+
 }
 
 .under5:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
+transform: scaleX(1);
+transform-origin: bottom left;
 }

@@ -1,9 +1,11 @@
 .bar-chart{
   display: flex!important;
   margin-left: 50px;
+  color: rgb(0, 0, 0);
 }
 
 .space{
     margin-left: 40px;
     color: rgb(0, 0, 0)!important;
 }
+

@@ -6,6 +6,8 @@ import { Link } from "react-router-dom/cjs/react-router-dom.js";
 import Navbar from "./Navmain.js";
 import Menu from "./Menu.js";
 import Nav2 from "./Nav2";
+
+
 function Pcc1(){
     const linkStyle = {
         float: 'left',
@@ -20,19 +22,7 @@ function Pcc1(){
         < >
         
           <div className="back-bg">
-            {/* nav */}
-            {/* <div className="flex">
-                <Menu />
-                <div>
-                    <nav className="colour-txt">
-                            <Link to="/Home" style={linkStyle} id="Home">Home</Link>
-                            <Link to="/Info" style={linkStyle}>About</Link>
-                            <Link to="/services" style={linkStyle}>Services</Link>
-                            <Link  to="/Livegraphs" style={linkStyle}>Graphs</Link>
-                            <Link  to="/Data analysis" style={linkStyle}>Data Analysis</Link>
-                    </nav>
-                </div>
-             </div> */}
+            
              <Nav2/>
          
           <center><h1><u>PCC-1</u></h1></center>
@@ -54,6 +44,10 @@ function Pcc1(){
                             
                             <div>
                                 <b> Power(W):</b>
+                               <Input disabled className="disabled-cursor1 input " />
+                            </div>
+                            <div>
+                                <b> Energy Meter(W):</b>
                                 <Input disabled className="disabled-cursor1 input " />
                             </div>
                             <div >
@@ -66,15 +60,19 @@ function Pcc1(){
                         <div className="flex">
                         {/* <img src="https://art.pixilart.com/e4c4e29906724a1.png" className="st-line-12"></img> */}
                         <img src="https://www.downloadclipart.net/large/12584-right-black-arrow-design.png" className="arrow-line-12" ></img>
-                        <Button className="stp-button" ><p >STP 2&3 Kaveri,Seeta Hostel</p></Button>
+                       <Link to="/Pcc1/Stp"> <Button className="stp-button" ><p >STP 2&3 Kaveri,Seeta Hostel</p></Button></Link>
                         <div className="flex inputs2-pcc1">
                             <div >
                                 <b > Current(A):</b>
                                 <Input disabled className="disabled-cursor1 input " />                      
                             </div>
-                            
+                                           
                             <div>
                                 <b> Power(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
+                            <div>
+                                <b> Energy Meter(W):</b>
                                 <Input disabled className="disabled-cursor1 input " />
                             </div>
                             <div >
@@ -98,6 +96,10 @@ function Pcc1(){
                                 <b> Power(W):</b>
                                 <Input disabled className="disabled-cursor1 input " />
                             </div>
+                            <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                             <div >
                                 <b >Energy(Kwh):</b>
                                 <Input disabled className="disabled-cursor1 input " />
@@ -117,6 +119,10 @@ function Pcc1(){
                             
                             <div>
                                 <b> Power(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
+                            <div>
+                                <b> Energy Meter(W):</b>
                                 <Input disabled className="disabled-cursor1 input " />
                             </div>
                             <div >
@@ -144,6 +150,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -165,6 +175,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -186,6 +200,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -207,6 +225,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -243,6 +265,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -264,6 +290,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -285,6 +315,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -306,6 +340,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -332,6 +370,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -353,6 +395,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -374,6 +420,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />
@@ -396,6 +446,10 @@ function Pcc1(){
                                     <b> Power(W):</b>
                                     <Input disabled className="disabled-cursor1 input " />
                                 </div>
+                                <div>
+                                <b> Energy Meter(W):</b>
+                                <Input disabled className="disabled-cursor1 input " />
+                            </div>
                                 <div >
                                     <b >Energy(Kwh):</b>
                                     <Input disabled className="disabled-cursor1 input " />

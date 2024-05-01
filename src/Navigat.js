@@ -25,6 +25,7 @@ import Service from './Services.js';
         <Route path="/Pcc3" exact component={Pcc3} />
         <Route path="/Pcc4" exact component={Pcc4} />
         <Route path="/Pcc1/Park Light D.B's"  exact component={Park}/>
+        <Route path="/Pcc1/Stp"  exact component={Park}/>
         <Route path="/Myaccounts" exact component={Myaccounts}/>
         <Route path="/Livegraphs" exact component={Livegraphs}/>
         <Route path="/Layout" exact component={Layout}/>

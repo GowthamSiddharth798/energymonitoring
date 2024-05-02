@@ -58,7 +58,7 @@
      height: 60vh;
      width: 55vw;
      margin: 25px;
-     margin-left: 20vh!important;
+     margin-left: 10vh!important;
      /* background-color: rgb(220, 241, 255)!important; */
      background-color: rgb(111, 111, 111)!important;
      border-color: rgb(255, 255, 255)!important;
@@ -67,22 +67,32 @@
      border-color: rgb(255, 255, 255)!important;
      position: absolute;
      top: 230px;
-     right: 200px;
+     right: 50px;
  }
  .card3{
      border-color: rgb(255, 255, 255)!important;
      position: absolute;
      top: 230px;
      right: 40px;
+     
  }
  .card-txt{
-   /* background-color: rgb(220, 241, 255)!important; */
    background-color: rgb(111, 111, 111)!important;
    height: 60vh;
-   width: 18vw;
-   padding-top: 30px;
-   padding-left: 55px;
+   width: 33vw;
+   padding: 10px;
+   padding-top: 50px;
+   padding-left: 35px;
+   
  }
+ .part1{
+    padding-bottom: 20px!important;
+}
+.part2{
+    margin-top: 10px!important;
+    padding-left: 30px;
+    padding: 40px;
+}
  .background{
      /* background-color: rgba(249, 250, 252, 0.49) ; */
      height: 100vh;

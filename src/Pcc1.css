@@ -7,9 +7,9 @@
 .card-pcc1{
     background-color: rgb(111, 111, 111)!important;
     margin: 60px;
-    margin-left: 190px;
+    margin-left: 150px;
     height: 220vh;
-    width:75vw;
+    width:78vw;
 }
 
 .new{
@@ -220,11 +220,25 @@
     height: 40px;
     
 }
-
+.ener{
+    position: absolute;
+    left: 300px;
+}
+.let{
+    position: relative;
+   right: 20px!important;
+}
+.ener2{
+    margin-left: 12.5vw;
+}
+.normal{
+    margin-left: 0.5vw;
+}
 .inputs-pcc1{
     position: absolute;
-    left: 530px;
+    left: 535px;
     top: 5px;
+    
 }
 .inputs2-pcc1{
     position: absolute;

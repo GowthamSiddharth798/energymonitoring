@@ -54,6 +54,7 @@ const getColorEffi = (percent) => {
  
     
 
+    
   const limit = current;
   const limit2 = power;
   const limit3 = energy;

@@ -1,7 +1,6 @@
 import React from "react";
 import './body.css';
 import { Card } from "react-rainbow-components";
-import { Link } from 'react-router-dom';
 import Navbar from "./Navmain";
 
 

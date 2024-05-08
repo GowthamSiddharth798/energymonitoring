@@ -7,8 +7,7 @@ import { Progress, Space} from 'antd';
 import  { useState, useEffect } from 'react';
 import arrow from './arrow.png';
 import stline from './stline.png';
-import MyComponent from "./ex";
-const formatProgress = (percent) => '${percent}';
+// const formatProgress = (percent) => '${percent}';
 const getColorEffi = (percent) => {
   if (percent >= 75) {
     return 'green';

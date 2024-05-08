@@ -54,7 +54,7 @@ const getColorEffi = (percent) => {
  
     
 
-    
+
   const limit = current;
   const limit2 = power;
   const limit3 = energy;
@@ -97,7 +97,7 @@ const getColorEffi = (percent) => {
     </div>
     <center className="flex">
       <h3 className="txt-main glow-text">
-        <img src="https://i.ibb.co/qkdZwY2/vit2.png" className="vi img-a" />
+        <img src="https://i.ibb.co/qkdZwY2/vit2.png" alt="ST Line" className="vi img-a" />
         VISHNU ENERGY MONITORING SYSTEM
       </h3>
     </center>
@@ -108,8 +108,8 @@ const getColorEffi = (percent) => {
           <div className="main">
             {/* pcc1 */}
             <div className="flex">
-              <img src={stline} className="st-line-11" />
-              <img src={arrow} className="arrow-line-11" />
+              <img src={stline} alt="ST Line" className="st-line-11" />
+              <img src={arrow} alt="Arrow" className="arrow-line-11" />
   
               <Link to="/Pcc1">
                 <Button className="button txt-in" type="link" id="actionButton" style={getButtonStyle()}>
@@ -138,8 +138,8 @@ const getColorEffi = (percent) => {
             </div>
             {/* pcc2 */}
             <div className="flex">
-              <img src={stline} className="st-line-12" />
-              <img src={arrow} className="arrow-line-12" />
+              <img src={stline} alt="ST Line" className="st-line-12" />
+              <img src={arrow} alt="Arrow" className="arrow-line-12" />
               <Link to="/Pcc2">
                 <Button className="button2 txt-in" type="link" id="actionButton" style={getButtonStyle()}>
                   <h6 className="txt-in">PCC-2</h6>
@@ -168,8 +168,8 @@ const getColorEffi = (percent) => {
             </div>
             {/* pcc3 */}
             <div className="flex">
-              <img src={stline} className="st-line-13" />
-              <img src={arrow} className="arrow-line-13" />
+              <img src={stline} alt="ST Line" className="st-line-13" />
+              <img src={arrow} alt="Arrow" className="arrow-line-13" />
               <Link to="/Pcc3">
                 <Button className="button3 txt-in" type="link" id="actionButton" style={getButtonStyle()}>
                   <h6 className="txt-in">PCC-3</h6>
@@ -197,8 +197,8 @@ const getColorEffi = (percent) => {
             </div>
             {/* pcc4 */}
             <div className="flex">
-              <img src={stline} className="st-line-141" />
-              <img src={arrow} className="arrow-line-14" />
+              <img src={stline} alt="ST Line" className="st-line-141" />
+              <img src={arrow} alt="Arrow" className="arrow-line-14" />
               <Link to="/Pcc4">
                 <Button className="button4" type="link" id="actionButton" style={getButtonStyle()}>
                   <h6 className="txt-in">PCC-4</h6>

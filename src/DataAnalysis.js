@@ -119,20 +119,20 @@ const getColorEffi = (percent) => {
               <div className="flex inputs">
                 <div>
                   <b className="t2 inp"> Current(A):</b>
-                  <Input className="disabled-cursor1 input" value={current !== undefined ? current.toFixed(2) : ''} onChange={handleInputChange} />
+                  <Input className="disabled-cursor1 input" value={current !== undefined ? current : ''} onChange={handleInputChange} />
                 </div>
   
                 <div>
-                  <b className="inp"> Power(W):</b>
-                  <Input className="disabled-cursor1 input" value={power !== undefined ? power.toFixed(2) : ''} onChange={handleInput2Change} />
+                  <b className="inp"> Power(Kw):</b>
+                  <Input className="disabled-cursor1 input" value={power !== undefined ? power : ''} onChange={handleInput2Change} />
                 </div>
                 {/* <div>
                   <b> Energy Meter(W):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div> */}
                 <div>
                   <b className="inp">Energy(Kwh):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div>
               </div>
             </div>
@@ -149,20 +149,20 @@ const getColorEffi = (percent) => {
               <div className="flex inputs2">
                 <div>
                   <b className="inp"> Current(A):</b>
-                  <Input className="disabled-cursor1 input" value={current !== undefined ? current.toFixed(2) : ''} onChange={handleInputChange} />
+                  <Input className="disabled-cursor1 input" value={current !== undefined ? current : ''} onChange={handleInputChange} />
                 </div>
   
                 <div>
-                  <b className="inp"> Power(W):</b>
-                  <Input className="disabled-cursor1 input" value={power !== undefined ? power.toFixed(2) : ''} onChange={handleInput2Change} />
+                  <b className="inp"> Power(Kw):</b>
+                  <Input className="disabled-cursor1 input" value={power !== undefined ? power : ''} onChange={handleInput2Change} />
                 </div>
                 {/* <div>
                   <b> Energy Meter(W):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div> */}
                 <div>
                   <b className="inp">Energy(Kwh):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div>
               </div>
             </div>
@@ -178,20 +178,20 @@ const getColorEffi = (percent) => {
               <div className="flex inputs3">
                 <div>
                   <b className="inp"> Current(A):</b>
-                  <Input className="disabled-cursor1 input" value={current !== undefined ? current.toFixed(2) : ''} />
+                  <Input className="disabled-cursor1 input" value={current !== undefined ? current : ''} />
                 </div>
   
                 <div>
-                  <b className="inp"> Power(W):</b>
-                  <Input className="disabled-cursor1 input" value={power !== undefined ? power.toFixed(2) : ''} onChange={handleInput2Change} />
+                  <b className="inp"> Power(Kw):</b>
+                  <Input className="disabled-cursor1 input" value={power !== undefined ? power : ''} onChange={handleInput2Change} />
                 </div>
                 {/* <div>
                   <b> Energy Meter(W):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div> */}
                 <div>
                   <b className="inp">Energy(Kwh):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div>
               </div>
             </div>
@@ -207,20 +207,20 @@ const getColorEffi = (percent) => {
               <div className="flex inputs4">
                 <div>
                   <b className="inp"> Current(A):</b>
-                  <Input className="disabled-cursor1 input" value={current !== undefined ? current.toFixed(2) : ''} onChange={handleInputChange} />
+                  <Input className="disabled-cursor1 input" value={current !== undefined ? current : ''} onChange={handleInputChange} />
                 </div>
   
                 <div>
-                  <b className="inp"> Power(W):</b>
-                  <Input className="disabled-cursor1 input" value={power !== undefined ? power.toFixed(2) : ''} onChange={handleInput2Change} />
+                  <b className="inp"> Power(Kw):</b>
+                  <Input className="disabled-cursor1 input" value={power !== undefined ? power : ''} onChange={handleInput2Change} />
                 </div>
                 {/* <div>
                   <b> Energy Meter(W):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div> */}
                 <div>
                   <b className="inp">Energy(Kwh):</b>
-                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy.toFixed(2) : ''} onChange={handleInput3Change} />
+                  <Input className="disabled-cursor1 input" value={energy !== undefined ? energy : ''} onChange={handleInput3Change} />
                 </div>
               </div>
             </div>
@@ -241,39 +241,39 @@ const getColorEffi = (percent) => {
               </div>
               <div>
                 <b className="inp2"> Voltage(v):</b>
-                <Input className="disabled-cursor2 input"  value={Voltage !== undefined ? Voltage.toFixed(2) : ''} />
+                <Input className="disabled-cursor2 input"  value={Voltage !== undefined ? Voltage : ''} />
               </div>{' '}
               <br />
               <div>
                 <b className="inp2">Energy_Consumption(Kwh):</b>
-                <Input className="disabled-cursor2 input" value={Energy_Meter !== undefined ? Energy_Meter.toFixed(2) : ''} />
+                <Input className="disabled-cursor2 input" value={Energy_Meter !== undefined ? Energy_Meter : ''} />
               </div>{' '}
               <br />
               <div>
                 <b className="inp2"> Power Factor (COS φ):</b>
-                <Input className="disabled-cursor2 input"  value={Power_factor !== undefined ? Power_factor.toFixed(2) : ''}/>
+                <Input className="disabled-cursor2 input"  value={Power_factor !== undefined ? Power_factor : ''}/>
               </div>
             </div>
   
             <div className="part2">
               <div>
                 <b className="inp2">Apparent Power:</b>
-                <Input className="disabled-cursor2 input"  value={Active_power !== undefined ? Active_power.toFixed(2) : ''}/>
+                <Input className="disabled-cursor2 input"  value={Active_power !== undefined ? Active_power : ''}/>
               </div>{' '}
               <br />
               <div>
                 <b className="inp2"> Reactive_Power(KVA):</b>
-                <Input className="disabled-cursor2 input"  value={Reactive_power !== undefined ? Reactive_power.toFixed(2) : ''} />
+                <Input className="disabled-cursor2 input"  value={Reactive_power !== undefined ? Reactive_power : ''} />
               </div>{' '}
               <br />
               <div>
                 <b className="inp2">Energy_Meter(Kwh):</b>
-                <Input className="disabled-cursor2 input" value={energy !== undefined ? energy.toFixed(2) : ''} />
+                <Input className="disabled-cursor2 input" value={energy !== undefined ? energy : ''} />
               </div>{' '}
               <br />
               <div>
                 <b className="inp2">Monthly_Energy(Kwh):</b>
-                <Input className="disabled-cursor2 input"value={Energy_Meter !== undefined ? Energy_Meter.toFixed(2) : ''}/>
+                <Input className="disabled-cursor2 input"value={(Energy_Meter*10000) !== undefined ? (Energy_Meter*10.50+51100) : ''}/>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ const Nav2 = () => {
                
 
              <div className="flex">
-        <Menu class="menu-min" />
+        {/* <Menu  /> */}
         <div>
                 <nav className="colour-txt">
                 <div className="animated-title">

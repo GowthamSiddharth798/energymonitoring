@@ -127,7 +127,9 @@ transform-origin: bottom right;
 transition: transform 0.5s ease-in-out;
 
 }
-
+.menu-min{
+  height: 20px!important;
+}
 .under5:hover::after {
 transform: scaleX(1);
 transform-origin: bottom left;

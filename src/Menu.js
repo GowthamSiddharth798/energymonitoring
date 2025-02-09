@@ -1,5 +1,5 @@
-import { useState ,props} from 'react';
-import {Offcanvas,Button }from 'react-bootstrap';
+import { useState } from 'react';
+import {Offcanvas }from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import'./Menu.css';
 import hamburger from './hamburger.jpg'

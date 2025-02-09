@@ -1,6 +1,6 @@
 import React from "react";
 import './DataAnalysis.css';
-import { Input,Button,Card,ProgressCircular } from "react-rainbow-components";
+import { Input,Button,Card } from "react-rainbow-components";
 import { Link } from 'react-router-dom';
 import Nav2 from "./Nav2";
 import { Progress, Space} from 'antd';
@@ -55,9 +55,9 @@ const getColorEffi = (percent) => {
     
 
 
-  const limit = current;
-  const limit2 = power;
-  const limit3 = energy;
+  // const limit = current;
+  // const limit2 = power;
+  // const limit3 = energy;
 
   const handleInputChange = (event) => {
     const newValue = parseFloat(event.target.value);

@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav2 from '../Nav2';
 import './Park.css';
-import{Card,Input,Button} from 'react-rainbow-components'
+import{Input} from 'react-rainbow-components'
 export const Park = () => {
   return (
     <>

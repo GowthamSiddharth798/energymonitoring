@@ -1,19 +1,19 @@
 import React from 'react'
-import Navbar from "./Navmain";
+// import Navbar from "./Navmain";
 import Nav2 from "./Nav2";
-import BarChart from './Pages/Charts/Chart1';
+// import BarChart from './Pages/Charts/Chart1';
 import './Livegraphs.css';
-import  { useState, useEffect } from 'react';
-import DatePicker from 'react-datepicker';
+import  { useState } from 'react';
+// import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import Chart from './Pages/Charts/Chart1';
 // import {ReactApexChart} from 'apexcharts';
 const Livegraphs = () => {
-  const [selectedDate, setSelectedDate] = useState(null);
+  // const [selectedDate, setSelectedDate] = useState(null);
 
-  const handleDateChange = date => {
-    setSelectedDate(date);
-  };
+  // const handleDateChange = date => {
+  //   setSelectedDate(date);
+  // };
   return (
     <>
       <div className="background-graphs">

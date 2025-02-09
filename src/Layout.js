@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "./Navmain";
+// import Navbar from "./Navmain";
 import Nav2 from "./Nav2";
 import './Layout.css';
  const Layout = () => {

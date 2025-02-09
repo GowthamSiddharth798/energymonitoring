@@ -1,10 +1,10 @@
 import React from "react";
 import './Pcc1.css';
 import{Card,Input,Button} from 'react-rainbow-components'
-import Header from './Header.js'
+// import Header from './Header.js'
 import { Link } from "react-router-dom/cjs/react-router-dom.js";
-import Navbar from "./Navmain.js";
-import Menu from "./Menu.js";
+// import Navbar from "./Navmain.js";
+// import Menu from "./Menu.js";
 import Nav2 from "./Nav2";
 import arrow from './arrow.png';
 import stline from './stline.png';
